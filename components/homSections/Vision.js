@@ -4,7 +4,7 @@ export default function Vision() {
   return (
           <div className='flex flex-col items-center justify-center gap-9 py-12 px-5 md:px-14'>
             <Title title="Vision"  line={true} style="text-5xl text-center md:text-6xl " />
-                <div  className='max-w-5xl flex flex-col items-center justify-center text-center text-3xl gap-4 text-[#01133F]'>
+                <div  className='max-w-5xl flex flex-col items-center justify-center text-center text-xl md:text-3xl gap-4 text-[#01133F]'>
 
                 <p>
                <b>Soluzione Amazon</b> nasce con l&apos;intento di offrire un <b>supporto strutturato</b> a tutte quelle realtà italiane che desiderano <b>innovarsi</b> e fare il salto decisivo nel mondo dell&apos;<b>e-commerce</b>
