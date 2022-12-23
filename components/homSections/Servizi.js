@@ -19,8 +19,8 @@ export default function Servizi() {
                         <h3 className='text-xl font-semibold'>
                         Creazione account
                         </h3>
-                        <p className='text-sm tracking-wider font-medium  leading-6'> 
-                        Affidati al nostro team di esperti, andiamo noi a creare un account per il tuo business per aiutarti a scalare.
+                        <p className='text-sm tracking-wider   leading-6'> 
+                       <b>Aprire un account su Amazon può apparire complesso</b> e lungo in termini di tempo, soprattutto se è la prima volta. Noi di <b>Soluzione Amazon</b> lo sappiamo bene. Ecco perché ci offriamo di prendere in carico la creazione di un account in <b>ogni suo step</b>, valutando insieme tutte le opzioni che più si adeguano al tuo business model.
                         </p>
                     </div>
  
@@ -34,8 +34,9 @@ export default function Servizi() {
                         <h3 className='text-xl font-semibold'>
                         Gestione account
                         </h3>
-                        <p className='text-sm tracking-wider font-medium  leading-6'> 
-                        Se hai un account già esistente, il nostro team di esperti offrirà a te un servizio fatto su misura per gestire il tuo account e per farlo performare al meglio.                        </p>
+                        <p className='text-sm tracking-wider   leading-6'> 
+                        Noi non siamo soliti lanciare il sasso e ritirare la mano. <b>Capiamo perfettamente quali sono le problematiche relative alla gestione di un Amazon Account</b>, sia esso recente oppure già presente da tempo. Non ci sostituiamo a te, ma insieme ti aiutiamo a intraprendere le <b>strade necessarie</b> per rendere sempre più <b>profittevole</b> il tuo store.
+                        </p>
                     </div>
 
                     <div className='flex flex-col gap-3 items-center   text-center md:w-[342px]'>
@@ -48,9 +49,9 @@ export default function Servizi() {
                         <h3 className='text-xl font-semibold'>
                         Creazione marchio
                         </h3>
-                        <p className='text-sm tracking-wider font-medium  leading-6'> 
-                        Hai uno stock che vuoi brandizzare? oppure vuoi creare il tuo brand personale? <br/>
-                        Sei nel posto giusto, il nostro team ha aiutato oltre 50 aziende negli ultimi 5 anni a portare sul mercato brand nuovi oltre ad aiutarli a scalare.                        </p>
+                        <p className='text-sm tracking-wider   leading-6'>
+                        Molte volte se non si ha un <b>brand</b> conosciuto, si fa fatica a risaltare rispetto alla competizione. Grazie alla nostra <b>pluriennale esperienza</b> possiamo aiutarti nella creazione di <b>marchi unici</b>, capaci di unire forza espressiva ed efficacia per meglio scalare il tuo <b>mercato di riferimento</b>. Curiamo ogni dettaglio del processo, per cogliere sempre gli elementi distintivi e caratteristici della tua attività.
+                             </p>
                     </div>
 
             </div>

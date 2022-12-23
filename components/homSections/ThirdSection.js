@@ -8,12 +8,16 @@ export default function ThirdSection() {
     <div className=' py-12 px-5 md:px-16'>
       <Title title="Chi Siamo?" line={false} style="text-7xl  " />
       <div className='flex flex-col lg:grid lg:grid-cols-2 lg:gap-20 gap-10	items-center justify-center'>
-        <div className='text-[#01133F]  text-2xl '>
+        <div className='text-[#01133F]  text-2xl pt-10'>
             <p>
-            La nostra storia inizia con un&apos;idea, un&apos;idea di due imprenditori che hanno voluto portare sul mercato un servizio che includeva <b>innovazione</b> e <b>scalabilità</b>.
+            <b>Soluzione Amazon è un progetto innovativo</b>, nato dalla collaborazione di due imprenditori italiani desiderosi di portare un servizio alle imprese diverso e più efficace
             </p> <br/>
             <p>
-            Il tutto nasce da una grandissima <b>passione</b> e una grande esperienza di due imprenditori che dopo che hanno portato le loro aziende al successo, hanno voluto  mettere a disposizione le loro competenze anche ad altre aziende con l&apos;obiettivo di rafforzare il <b>MADE IN ITALY</b>.
+            Dopo anni maturati in contesti importanti di consulenza in vari settori, ci siamo resi conto di come tante aziende italiane fatichino a trovare risorse e tempo per essere presenti in maniera consistente nel mondo dell’e-commerce. Questa è una grande opportunità per il MADE IN ITALY, che rischia di soccombere ad una competizione qualitativamente scadente ma più aggressiva.          
+              </p>
+              <br/>
+            <p>
+              <b>Noi accettiamo questa sfida e siamo impazienti di metterci al tuo servizio.</b>
             </p>
 
         </div>
