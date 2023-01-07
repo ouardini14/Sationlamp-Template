@@ -6,7 +6,7 @@ import ThirdSection from "../components/homSections/ThirdSection";
 import FourthSection from "../components/homSections/FourthSection";
 import Vision from "../components/homSections/Vision";
 import Studio from "../components/homSections/Studio";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -15,10 +15,7 @@ export default function Home() {
         <title>Soluzione Amazon</title>
         <meta name="description" content="Soluzione Amazon" />
 
-        <meta
-          name="keywords"
-          content="Soluzione Amazon , Amazon, BDS"
-        />
+        <meta name="keywords" content="Soluzione Amazon , Amazon, BDS" />
 
         <meta property="og:title" content="Soluzione Amazon" />
         <meta property="og:type" content="website" />
@@ -44,29 +41,40 @@ export default function Home() {
         <div className="absolute h-full w-full bg-black  bg-[#01133f]/80 "></div>
 
         <motion.div
-        initial={{ opacity: 0, x:-100 }}
-        animate={{ opacity: 1, x:0 }}
-        transition={{ duration: 0.8 }}
-        className={` absolute h-full w-full text-center text-white  pt-72  px-4 sm:px-5   `}
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+          className={` absolute h-full w-full text-center text-white  pt-72  px-4 sm:px-5   `}
         >
           <span className="text-xl  lg:text-4xl  lg:tracking-wide font-medium">
-          “L&apos;innovazione è lo strumento specifico dell&apos;imprenditoria. L&apos;atto che <br/> favorisce il successo con una nuova capacità di creare benessere.”
-          
+            “L&apos;innovazione è lo strumento specifico
+            dell&apos;imprenditoria. L&apos;atto che <br /> favorisce il
+            successo con una nuova capacità di creare benessere.”
           </span>
-          <br />          <br />
-
+          <br /> <br />
           <span className="text-3xl md:text-5xl  lg:text-5xl font-semibold">
-          PETER FERDINAND DRUCKER
+            PETER FERDINAND DRUCKER
           </span>{" "}
         </motion.div>
       </div>
-      <Vision />
-      <Servizi />
-      <SecondSection />
-      <ThirdSection />
-      <FourthSection />
-      <Studio />
-
+      <div id="vision">
+        <Vision />
+      </div>
+      <div id="Servizi">
+        <Servizi />
+      </div>
+      <div id="SecondSection">
+        <SecondSection />
+      </div>
+      <div id="ThirdSection">
+        <ThirdSection />
+      </div>
+      <div id="FourthSection">
+        <FourthSection />
+      </div>
+      <div id="Studio">
+        <Studio />
+      </div>
     </div>
   );
 }

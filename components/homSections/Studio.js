@@ -16,11 +16,11 @@ export default function Studio() {
                        y:0,
                        transition: {
                         ease: "easeInOut",
-                        duration: 0.9
+                        duration: 0.3
         }}}
         viewport={{ once: true }} 
        className='flex items-center justify-center ' key={idx}>
-         <div className='relative  w-[250px] h-[500px]  md:w-[170px] md:h-[320px] lg:w-[250px] lg:h-[500px] xl:w-[290px] xl:h-[600px]  '>
+         <div className='relative  w-[250px] h-[300px]  md:w-[170px] md:h-[320px] lg:w-[250px] lg:h-[500px] xl:w-[290px] xl:h-[600px]  '>
           <Image 
             src={"/img/studio/"+(idx+1)+".jpg"}
             fill

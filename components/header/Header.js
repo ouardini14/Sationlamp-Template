@@ -90,12 +90,13 @@ export default function Header({ categories }) {
        </div>
      
      
-        <div className=" items-center space-x-16  text-white text-xs  hidden md:flex   ">
-            <HeaderItem title="About" link="/" />
-            <HeaderItem title="Industries" link="/" />
-            <HeaderItem title="Careers" link="/" />
-            <HeaderItem title="Insights" link="/" />
-            <HeaderItem title="Contact" link="/" />
+        <div className=" items-center space-x-9  text-white text-xs  hidden md:flex   ">
+            <HeaderItem title="Home" link="/" />
+            <HeaderItem title="Vision" link="#vision" />
+            <HeaderItem title="I nostri Servizi" link="#Servizi" />
+            <HeaderItem title="Chi Siamo?" link="#ThirdSection" />
+            <HeaderItem title="CONTATTACI" link="#FourthSection" />
+            <HeaderItem title="Casi studi" link="#Studio" />
 
 
 
@@ -159,11 +160,12 @@ export default function Header({ categories }) {
             
 
             
-            <HeaderItem title="About" link="/" />
-            <HeaderItem title="Industries" link="/" />
-            <HeaderItem title="Careers" link="/" />
-            <HeaderItem title="Insights" link="/" />
-            <HeaderItem title="Contact" link="/" />
+            <HeaderItem title="Home" link="/" />
+            <HeaderItem title="Vision" link="#vision" />
+            <HeaderItem title="I nostri Servizi" link="#Servizi" />
+            <HeaderItem title="Chi Siamo?" link="#ThirdSection" />
+            <HeaderItem title="CONTATTACI" link="#FourthSection" />
+            <HeaderItem title="Casi studi" link="#Studio" />
          
           </div>
         </div>
