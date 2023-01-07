@@ -5,6 +5,8 @@ import SecondSection from "../components/homSections/SecondSection";
 import ThirdSection from "../components/homSections/ThirdSection";
 import FourthSection from "../components/homSections/FourthSection";
 import Vision from "../components/homSections/Vision";
+import Studio from "../components/homSections/Studio";
+import { motion } from "framer-motion"
 
 export default function Home() {
   return (
@@ -41,8 +43,11 @@ export default function Home() {
         </div>
         <div className="absolute h-full w-full bg-black  bg-[#01133f]/80 "></div>
 
-        <div
-          className={` absolute h-full w-full text-center text-white  pt-72  px-4 sm:px-5   `}
+        <motion.div
+        initial={{ opacity: 0, x:-100 }}
+        animate={{ opacity: 1, x:0 }}
+        transition={{ duration: 0.8 }}
+        className={` absolute h-full w-full text-center text-white  pt-72  px-4 sm:px-5   `}
         >
           <span className="text-xl  lg:text-4xl  lg:tracking-wide font-medium">
           “L&apos;innovazione è lo strumento specifico dell&apos;imprenditoria. L&apos;atto che <br/> favorisce il successo con una nuova capacità di creare benessere.”
@@ -53,13 +58,15 @@ export default function Home() {
           <span className="text-3xl md:text-5xl  lg:text-5xl font-semibold">
           PETER FERDINAND DRUCKER
           </span>{" "}
-        </div>
+        </motion.div>
       </div>
       <Vision />
       <Servizi />
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <Studio />
+
     </div>
   );
 }

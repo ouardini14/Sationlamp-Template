@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { useForm } from "react-hook-form";
 import axios from "axios";
+const { motion } = require("framer-motion");
 
 export default function Form() {
   const {
@@ -31,7 +32,16 @@ export default function Form() {
   }
 
   return (
-    <div className='bg-[#FF9A18] px-8 py-10 md:px-28  md:py-28 '>
+    <motion.div
+    initial={{ opacity: 0}}
+    whileInView={{ opacity: 1,
+                  
+                   transition: {
+                    ease: "easeInOut",
+                     duration:1.5
+    }}}
+    viewport={{ once: true }} 
+    className='bg-[#FF9A18] px-8 py-10 md:px-28  md:py-28 '>
           <form
           onSubmit={handleSubmit(onSubmitForm)}
           className=" flex flex-col  md:pt-0  "
@@ -165,6 +175,6 @@ export default function Form() {
             {!loading && !success && "Invia"}
           </button>
         </form>
-    </div>
+    </motion.div>
   )
 }

@@ -9,7 +9,7 @@ export default function footer() {
         <li  className='text-white/70 text-sm font-bold' >Via F. Simonetta, 25 - 28922 Verbania (VB) </li>
         <li  className='text-white/70 text-sm font-bold' >Italia</li>
         <li  className='text-white/70 text-sm font-bold' >C.F e P.iva 09729160961</li><br/>
-        <li  ><div className=' w-[330px] h-1 bg-[#FF9A18]'></div></li><br/>
+        <li  ><div className='  w-[250px] h-1 bg-[#FF9A18]'></div></li><br/>
 
       </ul>
       <ul className='space-y-1'>

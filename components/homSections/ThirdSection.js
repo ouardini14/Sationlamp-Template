@@ -1,14 +1,25 @@
 import React from 'react'
 import Title from '../Title'
 import Image from 'next/image'
+const { motion } = require("framer-motion");
 
 
 export default function ThirdSection() {
   return (
     <div className=' py-12 px-5 md:px-16'>
       <Title title="Chi Siamo?" line={false} style="text-7xl  " />
+
       <div className='flex flex-col lg:grid lg:grid-cols-2 lg:gap-20 gap-10	items-center justify-center'>
-        <div className='text-[#01133F]  text-2xl pt-10'>
+
+        <motion.div
+         initial={{ opacity: 0 }}
+         whileInView={{ opacity: 1,
+                        transition: {
+                         ease: "easeInOut",
+                          duration: 1.95
+         }}}
+         viewport={{ once: true }} 
+        className='text-[#01133F]  text-2xl pt-10'>
             <p>
             <b>Soluzione Amazon è un progetto innovativo</b>, nato dalla collaborazione di due imprenditori italiani desiderosi di portare un servizio alle imprese diverso e più efficace
             </p> <br/>
@@ -20,8 +31,18 @@ export default function ThirdSection() {
               <b>Noi accettiamo questa sfida e siamo impazienti di metterci al tuo servizio.</b>
             </p>
 
-        </div>
-        <div className='flex items-center justify-center'>
+        </motion.div>
+
+        <motion.div 
+         initial={{ opacity: 0,y:-100 }}
+         whileInView={{ opacity: 1,
+                        y:0,
+                        transition: {
+                         ease: "easeInOut",
+                          duration:0.8
+         }}}
+         viewport={{ once: true }} 
+        className='flex items-center justify-center'>
          <div className='relative w-[280px] h-[187px] md:w-[600px] md:h-[400px]  '>
           <Image 
             src={"/img/ThirdSection/1.png"}
@@ -30,7 +51,7 @@ export default function ThirdSection() {
           />
         </div> 
        
-      </div>
+      </motion.div>
       </div>
     </div>
   )
