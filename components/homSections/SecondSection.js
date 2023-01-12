@@ -40,8 +40,7 @@ export default function SecondSection() {
             inquadrare al meglio il tipo di servizio che più soddisfa le tue
             esigenze.{" "}
           </motion.p>
-          <Link href={"/"} legacyBehavior>
-            <motion.a
+            <motion.a href="https://calendly.com/bdssrl" 
               initial={{ opacity: 0 }}
               whileInView={{
                 opacity: 1,
@@ -51,11 +50,10 @@ export default function SecondSection() {
                 },
               }}
               viewport={{ once: true }}
-              className="md:self-start rounded-3xl px-5 py-2 font-bold text-center text-white text-lg  bg-[#FF9A18] hover:bg-[#1d67cd] transition-all duration-300 ease-in-out "
+              className="cursor-pointer md:self-start rounded-3xl px-5 py-2 font-bold text-center text-white text-lg  bg-[#FF9A18] hover:bg-[#1d67cd] transition-all duration-300 ease-in-out "
             >
               Prenota una chiamata
             </motion.a>
-          </Link>
         </div>
         <div className="flex items-center justify-center">
           <motion.div
@@ -99,8 +97,8 @@ export default function SecondSection() {
             una seria indagine sulla concorrenza) per identificare la{" "}
             <b>strategia più efficace</b>.{" "}
           </motion.p>
-          <Link href={"/"} legacyBehavior>
-            <motion.a
+            <motion.a 
+            href={"https://calendly.com/bdssrl"}
               initial={{ opacity: 0 }}
               whileInView={{
                 opacity: 1,
@@ -110,11 +108,10 @@ export default function SecondSection() {
                 },
               }}
               viewport={{ once: true }}
-              className="md:self-start rounded-3xl px-5 py-2 font-bold text-center text-white text-lg  bg-[#FF9A18] hover:bg-[#1d67cd] transition-all duration-300 ease-in-out "
+              className="cursor-pointer md:self-start rounded-3xl px-5 py-2 font-bold text-center text-white text-lg  bg-[#FF9A18] hover:bg-[#1d67cd] transition-all duration-300 ease-in-out "
             >
               Prenota una chiamata
             </motion.a>
-          </Link>
         </div>
         <div className="flex items-center justify-center md:order-first">
           <motion.div
@@ -159,8 +156,8 @@ export default function SecondSection() {
             le nostre conclusioni sull&apos;analisi compiuta e illustrare i
             passi immediati da prendere. <b>Non lasciamo niente al caso. </b>{" "}
           </motion.p>
-          <Link href={"/"} legacyBehavior>
             <motion.a
+            href={"https://calendly.com/bdssrl"}
               initial={{ opacity: 0 }}
               whileInView={{
                 opacity: 1,
@@ -170,11 +167,10 @@ export default function SecondSection() {
                 },
               }}
               viewport={{ once: true }}
-              className="md:self-start rounded-3xl px-5 py-2 font-bold text-center text-white text-lg  bg-[#FF9A18] hover:bg-[#1d67cd] transition-all duration-300 ease-in-out "
+              className="cursor-pointer md:self-start rounded-3xl px-5 py-2 font-bold text-center text-white text-lg  bg-[#FF9A18] hover:bg-[#1d67cd] transition-all duration-300 ease-in-out "
             >
               Prenota una chiamata
             </motion.a>
-          </Link>
         </div>
         <div className="flex items-center justify-center">
           <motion.div

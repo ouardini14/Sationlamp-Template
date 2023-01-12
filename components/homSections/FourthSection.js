@@ -24,8 +24,8 @@ export default function FourthSection() {
       className='text-[#01133F] font-medium  text-2xl'>
       Prenota una chiamata con noi, assolutamente senza impegno, e scopri tutti i vantaggi che una <b>consulenza esperta</b> e dedicata ti può offrire
          </motion.p>
-      <Link href={"/"} legacyBehavior>
         <motion.a 
+        href="https://calendly.com/bdssrl" 
           initial={{ opacity: 0}}
           whileInView={{ opacity: 1,
                          transition: {
@@ -33,8 +33,7 @@ export default function FourthSection() {
                            duration:1.5
           }}}
           viewport={{ once: true }} 
-        className='md:self-start  rounded-3xl px-20 py-2 font-bold text-center text-white text-lg  bg-[#01133F] hover:bg-[#2B8580] transition-all duration-300 ease-in-out '>Prenota qui</motion.a>
-      </Link>
+        className=  'cursor-pointer md:self-start  rounded-3xl px-20 py-2 font-bold text-center text-white text-lg  bg-[#01133F] hover:bg-[#2B8580] transition-all duration-300 ease-in-out '>Prenota qui</motion.a>
       </div>
 
     <Form />
