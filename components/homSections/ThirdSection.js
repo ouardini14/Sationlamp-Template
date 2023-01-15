@@ -21,7 +21,7 @@ export default function ThirdSection() {
          viewport={{ once: true }} 
         className='text-[#01133F]  text-2xl pt-10'>
             <p>
-            <b>Soluzione Amazon è un progetto innovativo</b>, nato dalla collaborazione di due imprenditori italiani desiderosi di portare un servizio alle imprese diverso e più efficace
+            <b>Soluzione Amazon è un progetto innovativo</b>, nato dalla collaborazione di due imprenditori italiani desiderosi di portare un servizio alle imprese diverso e più efficace .
             </p> <br/>
             <p>
             Dopo anni maturati in contesti importanti di consulenza in vari settori, ci siamo resi conto di come tante aziende italiane fatichino a trovare risorse e tempo per essere presenti in maniera consistente nel mondo dell’e-commerce. Questa è una grande opportunità per il MADE IN ITALY, che rischia di soccombere ad una competizione qualitativamente scadente ma più aggressiva.          
