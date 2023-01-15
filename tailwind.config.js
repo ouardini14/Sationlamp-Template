@@ -9,12 +9,14 @@ module.exports = {
     extend: {
       fontFamily: {  
         'quicksand': ['Quicksand', 'sans-serif;'] , 
+        'Garamond': ['EB Garamond', 'sans-serif;'] , 
 
       },
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
 
   ],
 }

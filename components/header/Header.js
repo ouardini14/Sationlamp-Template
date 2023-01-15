@@ -76,7 +76,7 @@ export default function Header({ categories }) {
 
 
   return ( 
-    <header className="absolute top-0 left-0 w-screen z-[100] font-quicksand" >
+    <header className={`absolute top-0 left-0 w-screen z-[100] font-quicksand ${router.pathname !="/" && "bg-slate-900 pb-6"} `} >
         <div className={`relative flex justify-between  pt-14 w-screen  px-4 sm:px-5  lg:px-36 xl:px-44 2xl:px-48`} >
        
        <div className="relative z-[100]   h-[75px] w-[180px] lg:h-[105px] lg:w-[220px] xl:h-[113px] xl:w-[275px]">
@@ -92,11 +92,11 @@ export default function Header({ categories }) {
      
         <div className=" items-center space-x-9  text-white text-xs  hidden md:flex   ">
             <HeaderItem title="Home" link="/" />
-            <HeaderItem title="Vision" link="#vision" />
-            <HeaderItem title="I nostri Servizi" link="#Servizi" />
-            <HeaderItem title="Chi Siamo?" link="#ThirdSection" />
-            <HeaderItem title="CONTATTACI" link="#FourthSection" />
-            <HeaderItem title="Casi studi" link="#Studio" />
+            <HeaderItem title="Vision" link="/#vision" />
+            <HeaderItem title="I nostri Servizi" link="/#Servizi" />
+            <HeaderItem title="Chi Siamo?" link="/#ThirdSection" />
+            <HeaderItem title="CONTATTACI" link="/#FourthSection" />
+            <HeaderItem title="Casi studi" link="/#Studio" />
 
 
 
@@ -159,13 +159,12 @@ export default function Header({ categories }) {
           >
             
 
-            
             <HeaderItem title="Home" link="/" />
-            <HeaderItem title="Vision" link="#vision" />
-            <HeaderItem title="I nostri Servizi" link="#Servizi" />
-            <HeaderItem title="Chi Siamo?" link="#ThirdSection" />
-            <HeaderItem title="CONTATTACI" link="#FourthSection" />
-            <HeaderItem title="Casi studi" link="#Studio" />
+            <HeaderItem title="Vision" link="/#vision" />
+            <HeaderItem title="I nostri Servizi" link="/#Servizi" />
+            <HeaderItem title="Chi Siamo?" link="/#ThirdSection" />
+            <HeaderItem title="CONTATTACI" link="/#FourthSection" />
+            <HeaderItem title="Casi studi" link="/#Studio" />
          
           </div>
         </div>

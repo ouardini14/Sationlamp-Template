@@ -39,7 +39,7 @@ export default function Vision() {
         <br />
         <div className=" w-56 h-1 bg-[#FF9A18]"></div> <br />
         <p>
-          orresti aprire il tuo negozio online su <b>Amazon</b> e iniziare
+          Vorresti aprire il tuo negozio online su <b>Amazon</b> e iniziare
           subito a vendere ma non sai come fare? Oppure hai difficoltà nella sua
           gestione? Nessun problema.{" "}
           <b>

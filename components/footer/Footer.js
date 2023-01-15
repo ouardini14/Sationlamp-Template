@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function footer() {
   return (
     <div className='bg-[#01133F]  py-12 px-5 md:px-28 md:min-h-[48vh]'>
@@ -13,10 +13,10 @@ export default function footer() {
 
       </ul>
       <ul className='space-y-1'>
-        <li className='underline font-bold text-white text-lg'>Chi siamo?</li>
-        <li className='underline font-bold text-white text-lg'>Privacy Policy</li>
-        <li className='underline font-bold text-white text-lg'>Contattaci</li>
-        <li className='underline font-bold text-white text-lg'>Nostri servizi</li>
+        <li className='underline font-bold text-white text-lg'><Link href={"#ThirdSection"}>Chi siamo?</Link>  </li>
+        <li className='underline font-bold text-white text-lg'><Link href={"/Privacy_Policy"}>Privacy Policy</Link></li>
+        <li className='underline font-bold text-white text-lg'><Link href={"#FourthSection"}>Contattaci</Link></li>
+        <li className='underline font-bold text-white text-lg'><Link href={"#Servizi"}>Nostri servizi</Link></li>
 
       </ul>
       </div>
